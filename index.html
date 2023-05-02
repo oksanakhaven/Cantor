@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online cantor</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Currency Calculator</h1>
+      <h2>Convert the currency:</h2>
+      <div class="fl">
+        <div class="amount">
+          <input type="number" class="money mr5px" min="0" />
+        </div>
+        <div class="currenciesSelection">
+          <label for="currency1" class="mr5px">from</label>
+          <select class="currencySelector1 mr5px">
+            <option value="PLN">PLN</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+          </select>
+          <label for="currency2" class="mr5px">to</label>
+          <select class="currencySelector2 mr5px">
+            <option value="PLN">PLN</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+          </select>
+        </div>
+        <button class="calculation">Show me the result!</button>
+      </div>
+      <p></p>
+      <div class="result">
+        <div class="Result">Result:</div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
